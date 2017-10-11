@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/bpw
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bpw.github.io
+  * I am bpw (https://keybase.io/bpw) on keybase.
+  * I have a public key ASAGYdPTdCmkWm-xJ2knIMfFIhX7yi_FFXmqh6fpP8kY-wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120fa4b564ca09b85ca8edd610b74c8a8e8a1fd60f62e7eba338fd831e6e80be68e0a",
+      "host": "keybase.io",
+      "kid": "01200661d3d37429a45a6fb127692720c7c52215fbca2fc51579aa87a7e93fc918fb0a",
+      "uid": "9310c3b61938c1dad30836509b080219",
+      "username": "bpw"
+    },
+    "merkle_root": {
+      "ctime": 1507690047,
+      "hash": "b753e3306a8b80c8b1a600f5caba25f7258a566c94d49da3e3e0f0e1e813468aabdd7581c5ca63d0c4411b52bf8a013ca55e3d2c2cb2002ff8d955e04f7ddc74",
+      "hash_meta": "b75d85e30344edbb26846b3c0bab9cfab7e1e3c9a21aa873c1e78853e7b977fd",
+      "seqno": 1556279
+    },
+    "service": {
+      "hostname": "bpw.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.34"
+  },
+  "ctime": 1507690101,
+  "expire_in": 504576000,
+  "prev": "c61fae24f69b6cf7ad8dc1e83d2976f3a6d839cb5387e38df9c7b3490c1ce80e",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgBmHT03QppFpvsSdpJyDHxSIV+8ovxRV5qoen6T/JGPsKp3BheWxvYWTFA0F7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZmE0YjU2NGNhMDliODVjYThlZGQ2MTBiNzRjOGE4ZThhMWZkNjBmNjJlN2ViYTMzOGZkODMxZTZlODBiZTY4ZTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMDY2MWQzZDM3NDI5YTQ1YTZmYjEyNzY5MjcyMGM3YzUyMjE1ZmJjYTJmYzUxNTc5YWE4N2E3ZTkzZmM5MThmYjBhIiwidWlkIjoiOTMxMGMzYjYxOTM4YzFkYWQzMDgzNjUwOWIwODAyMTkiLCJ1c2VybmFtZSI6ImJwdyJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUwNzY5MDA0NywiaGFzaCI6ImI3NTNlMzMwNmE4YjgwYzhiMWE2MDBmNWNhYmEyNWY3MjU4YTU2NmM5NGQ0OWRhM2UzZTBmMGUxZTgxMzQ2OGFhYmRkNzU4MWM1Y2E2M2QwYzQ0MTFiNTJiZjhhMDEzY2E1NWUzZDJjMmNiMjAwMmZmOGQ5NTVlMDRmN2RkYzc0IiwiaGFzaF9tZXRhIjoiYjc1ZDg1ZTMwMzQ0ZWRiYjI2ODQ2YjNjMGJhYjljZmFiN2UxZTNjOWEyMWFhODczYzFlNzg4NTNlN2I5NzdmZCIsInNlcW5vIjoxNTU2Mjc5fSwic2VydmljZSI6eyJob3N0bmFtZSI6ImJwdy5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zNCJ9LCJjdGltZSI6MTUwNzY5MDEwMSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiJjNjFmYWUyNGY2OWI2Y2Y3YWQ4ZGMxZTgzZDI5NzZmM2E2ZDgzOWNiNTM4N2UzOGRmOWM3YjM0OTBjMWNlODBlIiwic2Vxbm8iOjEzLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQKefJ3KAIsPoxrAmO9oGpN3OZZt9jCkt5nk4rG+CJbtFbsKQE+5wMziyJGFxtbeIRC9MjgcR2vHQGw4nWl0o5Aioc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDio6nz9wuZjm8dChl1W52I6FGx+LWxdJ6u8DaL4tAWlKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bpw
+
+==================================================================
