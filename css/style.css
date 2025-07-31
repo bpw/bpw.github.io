@@ -25,12 +25,14 @@
         --body-inner-min-width: calc(var(--body-outer-min-width) - 2 * var(--body-pad));
         --body-inner-max-width: 800px;
         --body-outer-max-width: calc(var(--body-inner-max-width) + 2 * var(--body-pad));
+        --nav-toplevel-font-size: 1rem;
         --nav-tab-unselected-display: initial;
         --colspage-vertical: 0;
         --colspage-larger-width: 57.5%;
         --colspage-smaller-width: calc(100% - var(--colspage-larger-width));
         --page-pad: calc(2 * var(--body-pad));
         --article-body-pad: var(--article-pad);
+        --footer-toplevel-font-size: 0.8rem;
     }
     .vertical-only { display: none !important; }
 }
@@ -42,11 +44,13 @@
         --body-outer-max-width: 640px;
         --body-inner-min-width: calc(var(--body-outer-min-width) - 2 * var(--body-pad));
         --body-inner-max-width: calc(var(--body-outer-max-width) - 2 * var(--body-pad));
+        --nav-toplevel-font-size: 1.2rem;
         --nav-tab-unselected-display: none;
         --colspage-vertical: 1;
         --colspage-smaller-width: 100%;
         --colspage-larger-width: 100%;
         --page-pad: var(--body-pad);
+        --footer-toplevel-font-size: 0.9rem;
     }
     .horizontal-only { display: none !important; }
     @media(480px < width) {
@@ -221,6 +225,7 @@ a {
 
 nav.toplevel {
     margin: 0;
+    font-size: var(--nav-toplevel-font-size);
     line-height: 1.25;
 
     .nav-tab,
@@ -331,8 +336,8 @@ footer.toplevel {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    line-height: 1.0;
-    font-size: .8em;
+    line-height: 1.2;
+    font-size: var(--footer-toplevel-font-size);
     padding-top: var(--body-pad);
     & > * {
         margin: 0 var(--page-pad) var(--body-pad) var(--page-pad);
