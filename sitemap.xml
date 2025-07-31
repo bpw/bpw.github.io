@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://bpw.github.io/</loc>
+        <loc>https://emptymap.net/</loc>
     </url>
     <url>
-        <loc>https://bpw.github.io/atlas/</loc>
+        <loc>https://emptymap.net/cs/</loc>
     </url>
     <url>
-        <loc>https://bpw.github.io/news/</loc>
+        <loc>https://emptymap.net/cs/atlas/</loc>
+    </url>
+    <url>
+        <loc>https://emptymap.net/cs/csicsocs/</loc>
+    </url>
+    <url>
+        <loc>https://emptymap.net/csicsocs/</loc>
+    </url>
+    <url>
+        <loc>https://emptymap.net/key/</loc>
+    </url>
+    <url>
+        <loc>https://emptymap.net/tag/</loc>
+    </url>
+    <url>
+        <loc>https://emptymap.net/topic/</loc>
     </url>
 </urlset>

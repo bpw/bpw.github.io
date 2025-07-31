@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>ATLAS Lab</title>
+    <meta name="description" content="Analysis Tools in Languages, Architectures, and Systems">
+    <meta name="author" content="Benjamin P. Wood">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://emptymap.net/css/style.css">
+
+    
+    
+    <script>
+      function toggleNameDetail() {
+          for (let nh of document.querySelectorAll("abbr.name-detail-toggle")) {
+              let title = nh.title;
+              let text = nh.innerHTML;
+              nh.title = text;
+              nh.innerHTML = title;
+          }
+      }
+    </script>
+    
+    <link rel="stylesheet" href="https://emptymap.net/cs/courses.css">
+    <link rel="stylesheet" href="https://emptymap.net/cs/pubs.css">
+
+  </head>
+  
+  <body>
+    
+    <nav class="toplevel">
+      <details>
+        <summary>
+          <a class="nav-tab nav-root "
+             href="https://emptymap.net/"
+             title="🌐 : ∅ → 🧭"><b>emptymap</b>.net</a>
+          <a class="nav-tab nav-section "
+             href="https://emptymap.net/key/"
+             title="key">?</a>
+          
+          
+          
+           
+          <a class="nav-tab nav-section selected"
+             href="https:&#x2F;&#x2F;emptymap.net&#x2F;cs&#x2F;"
+             title="academic web page">cs</a>
+          
+          
+          
+          
+          
+          
+        </summary>
+        <div class="details-body">
+          <div class="menu"> 
+            <!-- <a class="menu-item nav-root" href="https://emptymap.net/">home</a> -->
+            <a class="menu-item nav-section "
+               href="https://emptymap.net/key/"
+               title="key">?</a>
+            
+            
+            
+             
+            <a class="menu-item nav-section selected"
+               href="https:&#x2F;&#x2F;emptymap.net&#x2F;cs&#x2F;"
+               title="academic web page">cs</a>
+            
+            
+            
+            
+            
+            
+          </div>
+        </div>
+      </details>
+    </nav>
+    
+    
+    <main class="toplevel">
+      
+<div class="fullpage textpage center">
+  <strong>This page is an <a href="https://emptymap.net/cs/#about">archive</a>, ca. 2021.</strong>
+</div>
+<header class="fullpage">
+  
+<a href="&#x2F;cs&#x2F;atlas&#x2F;">
+  <img class="banner"
+     style="aspect-ratio: 1600 / 459 auto;"
+     src="https://emptymap.net/cs/atlas/atlas-wide-2x.jpg"
+     alt="Bug-finding"
+     title="Bug-finding">
+
+</a>
+
+
+  <div class="button-bar">
+    
+<a href="&#x2F;cs&#x2F;atlas&#x2F;">ATLAS</a>
+
+<a href="&#x2F;cs&#x2F;atlas&#x2F;#people">People</a>
+<a href="&#x2F;cs&#x2F;atlas&#x2F;#pubs">Publications</a>
+<a href="&#x2F;cs&#x2F;atlas&#x2F;#students">Student Work</a>
+
+
+  </div>
+</header>
+
+
+      
+
+<div class="fullpage textpage">
+  <h2><strong>ATLAS</strong>
+    <span style="font-weight: 300; font-size: 0.95em;">Analysis Tools in Languages, Architectures, and Systems</span></h2>
+  <p>
+  
+<a href="&#x2F;cs&#x2F;atlas&#x2F;"><strong>ATLAS</strong></a>:
+program analysis tools to find and prevent bugs without getting lost,
+working in programming languages, compilers, runtime systems, and
+computer architectures.
+
+
+  </p>
+  
+
+</div>
+<div class="colspage">
+  <div class="colspage-larger textpage">
+    <h2 id="people">Researchers</h2>
+    
+    <p><a href="https://emptymap.net/cs/">Ben Wood</a></p>
+    <p><strong>Staff:</strong></p>
+    <ul>
+      
+        <li>
+          
+          
+            <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;kasey-shen-359b718a" rel="nofollow noreferrer">Kasey Shen</a>, research programmer
+          (2019-2020)
+        </li>
+      
+    </ul>
+    <p><strong><a href="#students">Students</a>:</strong></p>
+    <ul>
+      
+        <li>
+          
+          
+            <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;malika-parkhomchuk-9b92a5203" rel="nofollow noreferrer">Malika Parkhomchuk</a>
+          
+          <span class="deemphasize">(Wellesley '23)</span>
+        </li>
+      
+        <li>
+          
+          
+          Amy Fung
+          
+          <span class="deemphasize">(Wellesley '23)</span>
+        </li>
+      
+        <li>
+          
+          
+            <a href="https:&#x2F;&#x2F;audreyseo.github.io&#x2F;">Audrey Seo</a>
+          
+          <span class="deemphasize">(Wellesley '20)</span>
+        </li>
+      
+        <li>
+          
+          
+            <a href="https:&#x2F;&#x2F;www.laurenluo.com&#x2F;">Lauren Luo</a>
+          
+          <span class="deemphasize">(Wellesley '20)</span>
+        </li>
+      
+        <li>
+          
+          
+            <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;lily-orth-smith" rel="nofollow noreferrer">Lily Orth-Smith</a>
+          
+          <span class="deemphasize">(Wellesley '20)</span>
+        </li>
+      
+        <li>
+          
+          
+            <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;emma-shumadine-a920931b9" rel="nofollow noreferrer">Emma Shumadine</a>
+          
+          <span class="deemphasize">(Wellesley '20)</span>
+        </li>
+      
+        <li>
+          
+          
+            <a href="https:&#x2F;&#x2F;scholar.google.com&#x2F;citations?user=8Q8FqzsAAAAJ">Valerie Zhao</a>
+          
+          <span class="deemphasize">(Wellesley '18)</span>
+        </li>
+      
+        <li>
+          
+          
+            <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;ellachao" rel="nofollow noreferrer">Ella Chao</a>
+          
+          <span class="deemphasize">(Wellesley '18)</span>
+        </li>
+      
+        <li>
+          
+          
+            <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;smincheva" rel="nofollow noreferrer">Sam Mincheva</a>
+          
+          <span class="deemphasize">(Wellesley '17)</span>
+        </li>
+      
+        <li>
+          
+          
+            <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;kasey-shen-359b718a" rel="nofollow noreferrer">Kasey Shen</a>
+          
+          <span class="deemphasize">(Wellesley '17)</span>
+        </li>
+      
+        <li>
+          
+          
+            <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;sunniaye" rel="nofollow noreferrer">Sunnia Ye</a>
+          
+          <span class="deemphasize">(Wellesley '17)</span>
+        </li>
+      
+    </ul>
+  </div>
+  <div class="colspage-smaller textpage">
+    <h2 id="collaborators">Collaborators</h2>
+    <ul>
+    
+      <li>
+        
+        
+          <a href="https:&#x2F;&#x2F;www.cis.upenn.edu&#x2F;~devietti&#x2F;">Joe Devietti</a>
+        
+        
+          (Penn)
+        
+      </li>
+    
+      <li>
+        
+        
+          <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;yuanfengpeng" rel="nofollow noreferrer">Yuanfeng Peng</a>
+        
+        
+          (Google)
+        
+      </li>
+    
+      <li>
+        
+        
+          <a href="https:&#x2F;&#x2F;www.usna.edu&#x2F;Users&#x2F;ee&#x2F;delozier&#x2F;index.php">Christian DeLozier</a>
+        
+        
+          (US Naval Academy)
+        
+      </li>
+    
+      <li>
+        
+        
+          <a href="https:&#x2F;&#x2F;cogumbreiro.github.io&#x2F;">Tiago Cogumbreiro</a>
+        
+        
+          (UMass Boston)
+        
+      </li>
+    
+      <li>
+        
+        
+          <a href="https:&#x2F;&#x2F;mdbond.github.io&#x2F;">Mike Bond</a>
+        
+        
+          (Ohio State)
+        
+      </li>
+    
+      <li>
+        
+        
+          <a href="https:&#x2F;&#x2F;caoman.github.io&#x2F;">Man Cao</a>
+        
+        
+          (Google)
+        
+      </li>
+    
+      <li>
+        
+        
+          <a href="https:&#x2F;&#x2F;www.cse.iitk.ac.in&#x2F;users&#x2F;swarnendu&#x2F;">Swarnendu Biswas</a>
+        
+        
+          (IIT Kanpur)
+        
+      </li>
+    
+  </ul>
+  </div>
+</div>
+
+<div class="fullpage textpage publist">
+  <h2 id="pubs">Publications</h2>
+
+  
+  
+  
+  
+  
+    
+      
+        
+        
+      
+        <div id="fib" class="pub">
+          <div class="pubtitle">
+            <a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;3133893?cid=81470647599">Instrumentation Bias for Dynamic Data Race Detection</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;caoman.github.io&#x2F;">Man Cao</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;mdbond.github.io&#x2F;">Michael D. Bond</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~djg&#x2F;">Dan Grossman</a>
+              
+            
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenueshort">OOPSLA 2017</span>:
+              <span class="pubvenuelong">ACM SIGPLAN Conference on Object-Oriented Programming Systems, Languages, and Applications</span>,
+            
+            October 2017
+          </div>
+          <div class="pubextras">
+            
+              <span class="wide-inline"><span class="pubextrakey">doi:</span><a href="https://doi.org/10.1145&#x2F;3133893">10.1145&#x2F;3133893</a></span>
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;3133893?cid=81470647599">ACM DL Author-Izer</a></span>
+              
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;repository.wellesley.edu&#x2F;scholarship&#x2F;168&#x2F;">institution</a></span>
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/fib-oopsla2017.pdf">local</a></span>
+              
+            
+
+            
+            
+              <span class="wide-inline"><span class="pubextrakey">code:</span> <a href="https:&#x2F;&#x2F;gitlab.com&#x2F;atlas-lab&#x2F;fib&#x2F;">FIB</a></span>
+            
+            
+              
+            
+          </div>
+        </div>
+    
+  
+    
+      
+        
+        
+      
+        <div id="parsnip" class="pub">
+          <div class="pubtitle">
+            <a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;3123939.3123946?cid=81470647599">PARSNIP: Performant Architecture for Race Safety with No Impact on Precision</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;yuanfengpeng" rel="nofollow noreferrer">Yuanfeng Peng</a>, 
+              
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;www.cis.upenn.edu&#x2F;~devietti&#x2F;">Joseph Devietti</a>
+              
+            
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenueshort">MICRO 2017</span>:
+              <span class="pubvenuelong">IEEE&#x2F;ACM International Symposium on Microarchitecture</span>,
+            
+            October 2017
+          </div>
+          <div class="pubextras">
+            
+              <span class="wide-inline"><span class="pubextrakey">doi:</span><a href="https://doi.org/10.1145&#x2F;3123939.3123946">10.1145&#x2F;3123939.3123946</a></span>
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;3123939.3123946?cid=81470647599">ACM DL Author-Izer</a></span>
+              
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;repository.wellesley.edu&#x2F;scholarship&#x2F;167&#x2F;">institution</a></span>
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/parsnip-micro2017.pdf">local</a></span>
+              
+            
+
+            
+            
+            
+              
+            
+          </div>
+        </div>
+    
+  
+    
+      
+        
+        
+      
+        <div id="racechaser-caper" class="pub">
+          <div class="pubtitle">
+            <a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;3033019.3033020?cid=81470647599">Lightweight Data Race Detection for Production Runs</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;www.cse.iitk.ac.in&#x2F;users&#x2F;swarnendu&#x2F;">Swarnendu Biswas</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;caoman.github.io&#x2F;">Man Cao</a>, 
+              
+            
+              
+              
+                <a href="http:&#x2F;&#x2F;zhangminjia.me&#x2F;">Minjia Zhang</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;mdbond.github.io&#x2F;">Michael D. Bond</a>, 
+              
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>
+              
+            
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenueshort">CC 2017</span>:
+              <span class="pubvenuelong">International Conference on Compiler Construction</span>,
+            
+            February 2017
+          </div>
+          <div class="pubextras">
+            
+              <span class="wide-inline"><span class="pubextrakey">doi:</span><a href="https://doi.org/10.1145&#x2F;3033019.3033020">10.1145&#x2F;3033019.3033020</a></span>
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;3033019.3033020?cid=81470647599">ACM DL Author-Izer</a></span>
+              
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;repository.wellesley.edu&#x2F;scholarship&#x2F;152&#x2F;">institution</a></span>
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/racechaser-caper-cc2017.pdf">local</a></span>
+              
+            
+
+            
+            
+              <span class="wide-inline"><span class="pubextrakey">code:</span> <a href="https:&#x2F;&#x2F;sourceforge.net&#x2F;p&#x2F;jikesrvm&#x2F;research-archive&#x2F;55&#x2F;">RaceChaser and Caper</a></span>
+            
+            
+              
+            
+          </div>
+        </div>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  <a class="button" href="https://emptymap.net/cs/#pubs">older publications &rarr;</a> 
+
+</div>
+
+
+<div class="fullpage textpage">
+  <h2 id="students">Student Work</h2>
+  <dl class="collaborators">
+    
+    <dt>
+      
+      
+        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;malika-parkhomchuk-9b92a5203" rel="nofollow noreferrer">Malika Parkhomchuk</a>
+      
+      <span class="deemphasize">(Wellesley &apos;23)</span>
+    </dt>
+    <dd>
+      
+      <div>
+        <em>Sophomore Early Research Program</em>, 2020-2021
+        
+      </div>
+      
+    </dd>
+    
+    <dt>
+      
+      
+        Amy Fung
+      
+      <span class="deemphasize">(Wellesley &apos;23)</span>
+    </dt>
+    <dd>
+      
+      <div>
+        <em>Sophomore Early Research Program</em>, 2020-2021
+        
+      </div>
+      
+    </dd>
+    
+    <dt>
+      
+      
+        <a href="https:&#x2F;&#x2F;audreyseo.github.io&#x2F;">Audrey Seo</a>
+      
+      <span class="deemphasize">(Wellesley &apos;20)</span>
+    </dt>
+    <dd>
+      
+      <div>
+        <em>Language Support for Automated Mastery-Based Evaluation of Introductory Programming Assignments</em>, 2019-2020
+        
+      </div>
+      
+    </dd>
+    
+    <dt>
+      
+      
+        <a href="https:&#x2F;&#x2F;www.laurenluo.com&#x2F;">Lauren Luo</a>
+      
+      <span class="deemphasize">(Wellesley &apos;20)</span>
+    </dt>
+    <dd>
+      
+      <div>
+        <em>Dynamic Mitigation of Unsupported Language Features for Low-Level Dynamic Analysis</em>, fall 2019
+        
+      </div>
+      
+    </dd>
+    
+    <dt>
+      
+      
+        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;lily-orth-smith" rel="nofollow noreferrer">Lily Orth-Smith</a>
+      
+      <span class="deemphasize">(Wellesley &apos;20)</span>
+    </dt>
+    <dd>
+      
+      <div>
+        <em>Dynamic Mitigation of Unsupported Language Features for Low-Level Dynamic Analysis</em>, fall 2019
+        
+      </div>
+      
+    </dd>
+    
+    <dt>
+      
+      
+        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;emma-shumadine-a920931b9" rel="nofollow noreferrer">Emma Shumadine</a>
+      
+      <span class="deemphasize">(Wellesley &apos;20)</span>
+    </dt>
+    <dd>
+      
+      <div>
+        <em>Dynamic Thread Ownership Assertions for Java</em>, summer 2019
+        
+      </div>
+      
+    </dd>
+    
+    <dt>
+      
+      
+        <a href="https:&#x2F;&#x2F;scholar.google.com&#x2F;citations?user=8Q8FqzsAAAAJ">Valerie Zhao</a>
+      
+      <span class="deemphasize">(Wellesley &apos;18)</span>
+    </dt>
+    <dd>
+      
+      <div>
+        <em>Evaluation of Dynamic Binary Instrumentation Approaches: Dynamic Binary Translation vs. Dynamic Probe Injection</em>, undergraduate thesis 2017-2018
+        
+      </div>
+      
+      <div>
+        <em>Honorable Mention, CRA Undergraduate Researcher Awards</em>, 2018
+        
+      </div>
+      
+      <div>
+        <em>Thread Ownership Policy Checking</em>, spring 2017
+        
+      </div>
+      
+    </dd>
+    
+    <dt>
+      
+      
+        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;ellachao" rel="nofollow noreferrer">Ella Chao</a>
+      
+      <span class="deemphasize">(Wellesley &apos;18)</span>
+    </dt>
+    <dd>
+      
+      <div>
+        <em>Thread Ownership Policy Annotations</em>, spring 2017
+        
+      </div>
+      
+    </dd>
+    
+    <dt>
+      
+      
+        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;smincheva" rel="nofollow noreferrer">Sam Mincheva</a>
+      
+      <span class="deemphasize">(Wellesley &apos;17)</span>
+    </dt>
+    <dd>
+      
+      <div>
+        <em>Sound Thread Local Analysis for Lockset-Based Dynamic Data Race Detection</em>, undergraduate thesis 2016-2017
+        
+      </div>
+      
+    </dd>
+    
+    <dt>
+      
+      
+        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;kasey-shen-359b718a" rel="nofollow noreferrer">Kasey Shen</a>
+      
+      <span class="deemphasize">(Wellesley &apos;17)</span>
+    </dt>
+    <dd>
+      
+      <div>
+        <em>Thread Ownership Profiling</em>, spring 2017
+        
+      </div>
+      
+      <div>
+        <em>Profiling Synchronization Patterns in Multithreaded Programs</em>, 2015-2016
+        
+        <div>2nd place, undergraduate research competition, <a href="http://ccscne.org/records/undergraduate-poster-and-research-competition-results/">CCSCNE 2016</a></div>
+        
+      </div>
+      
+    </dd>
+    
+    <dt>
+      
+      
+        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;sunniaye" rel="nofollow noreferrer">Sunnia Ye</a>
+      
+      <span class="deemphasize">(Wellesley &apos;17)</span>
+    </dt>
+    <dd>
+      
+      <div>
+        <em>Profiling Tools for Multithreaded Programs</em>, 2015
+        
+      </div>
+      
+    </dd>
+    
+  </dl>
+</div>
+
+
+
+      
+
+
+  <img class="banner"
+     style="aspect-ratio: 1600 / 403 auto;"
+     src="https://emptymap.net/images/photos/cardinal-wide-2x.jpg"
+     alt="Range enumeration"
+     title="Range enumeration">
+
+
+    </main>
+
+    <footer class="toplevel">
+      <div class="tagline">last updated in the Anthropocene Epoch</div>
+      <div class="license"><span class="copyright">&copy;2008&ndash;2025, Benjamin P. Wood,</span>
+<a class="license-ref nowrap" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a></div>
+    </footer>
+  </body>
+</html>

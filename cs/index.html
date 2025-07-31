@@ -1,0 +1,1510 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Benjamin P. Wood &#x2F; Computer Science</title>
+    <meta name="description" content="route scribbles by Ben Wood">
+    <meta name="author" content="Benjamin P. Wood">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://emptymap.net/css/style.css">
+
+    
+    
+    <script>
+      function toggleNameDetail() {
+          for (let nh of document.querySelectorAll("abbr.name-detail-toggle")) {
+              let title = nh.title;
+              let text = nh.innerHTML;
+              nh.title = text;
+              nh.innerHTML = title;
+          }
+      }
+    </script>
+    
+    <link rel="stylesheet" href="https://emptymap.net/cs/courses.css">
+    <link rel="stylesheet" href="https://emptymap.net/cs/pubs.css">
+
+  </head>
+  
+  <body>
+    
+    <nav class="toplevel">
+      <details>
+        <summary>
+          <a class="nav-tab nav-root "
+             href="https://emptymap.net/"
+             title="🌐 : ∅ → 🧭"><b>emptymap</b>.net</a>
+          <a class="nav-tab nav-section "
+             href="https://emptymap.net/key/"
+             title="key">?</a>
+          
+          
+          
+           
+          <a class="nav-tab nav-section selected"
+             href="https:&#x2F;&#x2F;emptymap.net&#x2F;cs&#x2F;"
+             title="academic web page">cs</a>
+          
+          
+          
+          
+          
+          
+        </summary>
+        <div class="details-body">
+          <div class="menu"> 
+            <!-- <a class="menu-item nav-root" href="https://emptymap.net/">home</a> -->
+            <a class="menu-item nav-section "
+               href="https://emptymap.net/key/"
+               title="key">?</a>
+            
+            
+            
+             
+            <a class="menu-item nav-section selected"
+               href="https:&#x2F;&#x2F;emptymap.net&#x2F;cs&#x2F;"
+               title="academic web page">cs</a>
+            
+            
+            
+            
+            
+            
+          </div>
+        </div>
+      </details>
+    </nav>
+    
+    
+    <main class="toplevel">
+      
+
+<header class="titlecard colspage">
+  <div class="colspage-smaller textpage">
+    <h2><script>
+  function toggleName() {
+      for (const nh of document.querySelectorAll("abbr.name-toggle")) {
+          const title = nh.title;
+          const text = nh.innerHTML;
+          nh.title = text;
+          nh.innerHTML = title;
+      }
+  }
+</script>
+<abbr class="has-action name-toggle" onclick="toggleName()" title="Benjamin P. Wood">Ben Wood</abbr></h2>
+    
+    <div class="position">
+      <div id="position_title">
+        <a href="#about">Adjunct Rambler</a>
+      </div>
+      
+      <span class="nowrap">Earth</span>
+    </div>
+    
+    <div class="contact">
+      
+      <div>Mail electrons to: <span class="nowrap"><em>here (at) emptymap.net</em></span></div>
+      
+    </div>
+    
+  </div>
+  <div class="colspage-larger">
+    <img class="banner"
+     style="aspect-ratio: 920 / 675 auto;"
+     src="https://emptymap.net/images/photos/gila-tree-hug-920x675.jpg"
+     alt="Learning to be a person"
+     title="Learning to be a person">
+
+  </div>
+</header>
+
+      
+
+<div id="about" class="fullpage textpage">
+  <h2>About</h2>
+  <p>This is my dormant academic webpage. In the past, I was <span
+id="telephone">an assistant professor</span> in computer science at
+Wellesley College. Instead of seeking the responsibilities of tenure
+there, I left in 2021 to live outside academic structures for a while,
+especially through self-powered travel.  My <a href="https://emptymap.net/">personal
+website</a> may or may not clarify my whereabouts.</p>
+<script src="telephone.js"></script>
+<script>
+    telephone(
+        "telephone",
+        [
+            "assistant",
+            "insistent",
+            "consistent",
+            "subsistent",
+            "subsystem",
+            "persistent",
+            "resistant",
+        ],
+        [
+            "professor",
+            "processor",
+            "prospector",
+            "protestor",
+            "protractor",
+            "projector",
+            "protector",
+            "pretender",
+            "presenter",
+            "preserver",
+        ],
+        true
+    )
+</script>
+
+</div>
+
+
+<div id="cs" class="colspage">
+  <div id="research" class="colspage-smaller">
+    
+<a href="&#x2F;cs&#x2F;atlas&#x2F;">
+  <img class="banner"
+     style="aspect-ratio: 1600 / 459 auto;"
+     src="https://emptymap.net/cs/atlas/atlas-wide-2x.jpg"
+     alt="Bug-finding"
+     title="Bug-finding">
+
+</a>
+
+    <div class="textpage">
+      <h2><!--<a href="&#x2F;cs&#x2F;atlas&#x2F;">-->Research<!--</a>--></h2>
+      
+      <p>
+      
+      <a href="atlas&#x2F;">ATLAS Lab (archive)</a>,
+      
+      <a href="#pubs">Publications</a>
+      
+      </p>
+      <p>Topics: program analysis, compilers, runtime systems, programming languages, and their interaction with computer architecture</p>
+    </div>
+  </div>
+  <div id="courses" class="colspage-larger textpage">
+    <h2>
+      Courses
+    </h2>
+    
+    
+    <h4><a href="https:&#x2F;&#x2F;www.wellesley.edu&#x2F;cs">Wellesley College</a></h4>
+    <dl class="course-list">
+      
+      
+      <dt>
+        <span class="course-icon cs111"><img src="cs111.svg"></span>
+        <span class="course-title">CS 111 Computer Programming &amp; Problem Solving</span>
+      </dt>
+      <dd>
+        
+        
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs111.wellesley.edu&#x2F;fall19&#x2F;">Fall 2019</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs111.wellesley.edu&#x2F;spring17&#x2F;">Spring 2017</a></span>
+        
+      </dd>
+      
+      
+      <dt>
+        <span class="course-icon cs230"><img src="cs230.svg"></span>
+        <span class="course-title">CS 230 Data Structures</span>
+      </dt>
+      <dd>
+        
+        
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs230&#x2F;fall14&#x2F;">Fall 2014</a></span>
+        
+      </dd>
+      
+      
+      <dt>
+        <span class="course-icon cs240"><img src="cs240.svg"></span>
+        <span class="course-title">CS 240 Foundations of Computer Systems</span>
+      </dt>
+      <dd>
+        
+        
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs240&#x2F;f21&#x2F;">Fall 2021</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs240&#x2F;s21&#x2F;">Spring 2021 T3</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs240&#x2F;f20&#x2F;">Fall 2020 T1</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs240&#x2F;s20&#x2F;">Spring 2020</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs240&#x2F;s19&#x2F;">Spring 2019</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs240&#x2F;f18&#x2F;">Fall 2018</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs240&#x2F;s17&#x2F;">Spring 2017</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs240&#x2F;f16&#x2F;">Fall 2016</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs240&#x2F;s16&#x2F;">Spring 2016</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs240&#x2F;f15&#x2F;">Fall 2015</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs240&#x2F;s15&#x2F;">Spring 2015</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs240&#x2F;f14&#x2F;">Fall 2014</a></span>
+        
+      </dd>
+      
+      
+      <dt>
+        <span class="course-icon cs251"><img src="cs251.svg"></span>
+        <span class="course-title">CS 251 Principles of Programming Languages</span>
+      </dt>
+      <dd>
+        
+        
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs251&#x2F;s20&#x2F;">Spring 2020</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs251&#x2F;f19&#x2F;">Fall 2019</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs251&#x2F;f15&#x2F;">Fall 2015</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs251&#x2F;s15&#x2F;">Spring 2015</a></span>
+        
+      </dd>
+      
+      
+      <dt>
+        <span class="course-icon cs301"><img src="cs301.svg"></span>
+        <span class="course-title">CS 301 Compilers and Runtime Systems</span>
+      </dt>
+      <dd>
+        
+        
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs301&#x2F;s21&#x2F;">Spring 2021 T4</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs301&#x2F;s19&#x2F;">Spring 2019</a>,</span>
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs301&#x2F;s16&#x2F;">Spring 2016</a></span>
+        
+      </dd>
+      
+      
+      <dt>
+        <span class="course-icon cs341"><img src="cs341.png"></span>
+        <span class="course-title">CS 341 Operating Systems</span>
+      </dt>
+      <dd>
+        
+        
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;cs.wellesley.edu&#x2F;~cs341&#x2F;f20&#x2F;">Fall 2020 T2</a></span>
+        
+      </dd>
+      
+      
+      <dt>
+        <span class="course-icon src"></span>
+        <span class="course-title">SRC Systems Reading Club</span>
+      </dt>
+      <dd>
+        
+        
+        
+        <span class="nowrap">Fall 2016</span>
+        
+      </dd>
+      
+    </dl>
+    
+    <h4><a href="https:&#x2F;&#x2F;cs.washington.edu&#x2F;">University of Washington</a></h4>
+    <dl class="course-list">
+      
+      
+      <dt>
+        <span class="course-icon cse351"></span>
+        <span class="course-title">CSE 351 The Hardware&#x2F;Software Interface</span>
+      </dt>
+      <dd>
+        
+        
+        
+        <span class="nowrap"><a href="https:&#x2F;&#x2F;courses.cs.washington.edu&#x2F;courses&#x2F;cse351&#x2F;13su&#x2F;">Summer 2013</a></span>
+        
+      </dd>
+      
+    </dl>
+    
+  </div>
+</div>
+
+
+
+
+
+
+<div id="pubs" class="fullpage textpage publist">
+  <h2>Publications</h2>
+
+  
+  
+  
+  
+  
+    <h3>
+      
+        Conference Papers
+      
+    </h3>
+    
+      
+        
+        
+      
+      
+        <div id="fib" class="pub">
+          <div class="pubtitle">
+            <a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;3133893?cid=81470647599">Instrumentation Bias for Dynamic Data Race Detection</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;caoman.github.io&#x2F;">Man Cao</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;mdbond.github.io&#x2F;">Michael D. Bond</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~djg&#x2F;">Dan Grossman</a>
+              
+            
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenueshort">OOPSLA 2017</span>:
+              <span class="pubvenuelong">ACM SIGPLAN Conference on Object-Oriented Programming Systems, Languages, and Applications</span>,
+            
+            October 2017
+          </div>
+          <div class="pubextras">
+            
+              <span class="wide-inline"><span class="pubextrakey">doi:</span><a href="https://doi.org/10.1145&#x2F;3133893">10.1145&#x2F;3133893</a></span>
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;3133893?cid=81470647599">ACM DL Author-Izer</a></span>
+              
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;repository.wellesley.edu&#x2F;scholarship&#x2F;168&#x2F;">institution</a></span>
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/fib-oopsla2017.pdf">local</a></span>
+              
+            
+
+            
+            
+              <span class="wide-inline"><span class="pubextrakey">code:</span> <a href="https:&#x2F;&#x2F;gitlab.com&#x2F;atlas-lab&#x2F;fib&#x2F;">FIB</a></span>
+            
+            
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        
+        
+      
+      
+        <div id="parsnip" class="pub">
+          <div class="pubtitle">
+            <a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;3123939.3123946?cid=81470647599">PARSNIP: Performant Architecture for Race Safety with No Impact on Precision</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;yuanfengpeng">Yuanfeng Peng</a>, 
+              
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;www.cis.upenn.edu&#x2F;~devietti&#x2F;">Joseph Devietti</a>
+              
+            
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenueshort">MICRO 2017</span>:
+              <span class="pubvenuelong">IEEE&#x2F;ACM International Symposium on Microarchitecture</span>,
+            
+            October 2017
+          </div>
+          <div class="pubextras">
+            
+              <span class="wide-inline"><span class="pubextrakey">doi:</span><a href="https://doi.org/10.1145&#x2F;3123939.3123946">10.1145&#x2F;3123939.3123946</a></span>
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;3123939.3123946?cid=81470647599">ACM DL Author-Izer</a></span>
+              
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;repository.wellesley.edu&#x2F;scholarship&#x2F;167&#x2F;">institution</a></span>
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/parsnip-micro2017.pdf">local</a></span>
+              
+            
+
+            
+            
+            
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        
+        
+      
+      
+        <div id="racechaser-caper" class="pub">
+          <div class="pubtitle">
+            <a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;3033019.3033020?cid=81470647599">Lightweight Data Race Detection for Production Runs</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;www.cse.iitk.ac.in&#x2F;users&#x2F;swarnendu&#x2F;">Swarnendu Biswas</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;caoman.github.io&#x2F;">Man Cao</a>, 
+              
+            
+              
+              
+                <a href="http:&#x2F;&#x2F;zhangminjia.me&#x2F;">Minjia Zhang</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;mdbond.github.io&#x2F;">Michael D. Bond</a>, 
+              
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>
+              
+            
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenueshort">CC 2017</span>:
+              <span class="pubvenuelong">International Conference on Compiler Construction</span>,
+            
+            February 2017
+          </div>
+          <div class="pubextras">
+            
+              <span class="wide-inline"><span class="pubextrakey">doi:</span><a href="https://doi.org/10.1145&#x2F;3033019.3033020">10.1145&#x2F;3033019.3033020</a></span>
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;3033019.3033020?cid=81470647599">ACM DL Author-Izer</a></span>
+              
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;repository.wellesley.edu&#x2F;scholarship&#x2F;152&#x2F;">institution</a></span>
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/racechaser-caper-cc2017.pdf">local</a></span>
+              
+            
+
+            
+            
+              <span class="wide-inline"><span class="pubextrakey">code:</span> <a href="https:&#x2F;&#x2F;sourceforge.net&#x2F;p&#x2F;jikesrvm&#x2F;research-archive&#x2F;55&#x2F;">RaceChaser and Caper</a></span>
+            
+            
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        
+        
+      
+      
+        <div id="lard" class="pub">
+          <div class="pubtitle">
+            <a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;2541940.2541955?cid=81470647599">Low-Level Detection of Language-Level Data Races with LARD</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~luisceze&#x2F;">Luis Ceze</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~djg&#x2F;">Dan Grossman</a>
+              
+            
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenueshort">ASPLOS 2014</span>:
+              <span class="pubvenuelong">International Conference on Architectural Support for Programming Languages and Operating Systems</span>,
+            
+            March 2014
+          </div>
+          <div class="pubextras">
+            
+              <span class="wide-inline"><span class="pubextrakey">doi:</span><a href="https://doi.org/10.1145&#x2F;2541940.2541955">10.1145&#x2F;2541940.2541955</a></span>
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;2541940.2541955?cid=81470647599">ACM DL Author-Izer</a></span>
+              
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/lard-asplos2014.pdf">local</a></span>
+              
+            
+
+            
+            
+            
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        
+        
+      
+      
+        <div id="radish" class="pub">
+          <div class="pubtitle">
+            <a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.5555&#x2F;2337159.2337182?cid=81470647599">RADISH: Always-On Sound and Complete Race Detection in Software and Hardware</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;www.cis.upenn.edu&#x2F;~devietti&#x2F;">Joseph Devietti</a>, 
+              
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;www.microsoft.com&#x2F;en-us&#x2F;research&#x2F;people&#x2F;kstrauss&#x2F;">Karin Strauss</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~luisceze&#x2F;">Luis Ceze</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~djg&#x2F;">Dan Grossman</a>, 
+              
+            
+              
+              
+                Shaz Qadeer
+              
+            
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenueshort">ISCA 2012</span>:
+              <span class="pubvenuelong">ACM&#x2F;IEEE International Syposium on Computer Architecture</span>,
+            
+            June 2012
+          </div>
+          <div class="pubextras">
+            
+              <span class="wide-inline"><span class="pubextrakey">doi:</span><a href="https://doi.org/10.5555&#x2F;2337159.2337182">10.5555&#x2F;2337159.2337182</a></span>
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.5555&#x2F;2337159.2337182?cid=81470647599">ACM DL Author-Izer</a></span>
+              
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/radish-isca2012.pdf">local</a></span>
+              
+            
+
+            
+              <span class="wide-inline"><span class="pubextrakey">tech report:</span> <a href="https://emptymap.net/cs/downloads/radish-extended-tr2012.pdf">extended version</a></span>
+            
+            
+            
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        
+        
+      
+      
+        <div id="cloudtypes" class="pub">
+          <div class="pubtitle">
+            <a href="https://emptymap.net/cs/downloads/cloud-types-ecoop2012.pdf">Cloud Types for Eventual Consistency</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;www.microsoft.com&#x2F;en-us&#x2F;research&#x2F;people&#x2F;sburckha&#x2F;">Sebastian Burckhardt</a>, 
+              
+            
+              
+              
+                Manuel Fahndrich, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;www.microsoft.com&#x2F;en-us&#x2F;research&#x2F;people&#x2F;daan&#x2F;">Daan Leijen</a>, 
+              
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>
+              
+            
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenueshort">ECOOP 2012</span>:
+              <span class="pubvenuelong">European Conference on Object-Oriented Programming</span>,
+            
+            June 2012
+          </div>
+          <div class="pubextras">
+            
+              <span class="wide-inline"><span class="pubextrakey">doi:</span><a href="https://doi.org/10.1007&#x2F;978-3-642-31057-7_14">10.1007&#x2F;978-3-642-31057-7_14</a></span>
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;research.microsoft.com&#x2F;apps&#x2F;pubs&#x2F;default.aspx?id=163842">institution</a></span>
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/cloud-types-ecoop2012.pdf">local</a></span>
+              
+            
+
+            
+            
+            
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        
+        
+      
+      
+        <div id="recon" class="pub">
+          <div class="pubtitle">
+            <a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;1993498.1993543?cid=81470647599">Isolating and Understanding Concurrency Errors Using Reconstructed Execution Fragments</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;brandonlucia.com&#x2F;">Brandon Lucia</a>, 
+              
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~luisceze&#x2F;">Luis Ceze</a>
+              
+            
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenueshort">PLDI 2011</span>:
+              <span class="pubvenuelong">ACM SIGPLAN Conference on Programming Language Design and Implementation</span>,
+            
+            June 2011
+          </div>
+          <div class="pubextras">
+            
+              <span class="wide-inline"><span class="pubextrakey">doi:</span><a href="https://doi.org/10.1145&#x2F;1993498.1993543">10.1145&#x2F;1993498.1993543</a></span>
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;1993498.1993543?cid=81470647599">ACM DL Author-Izer</a></span>
+              
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/recon-pldi2011.pdf">local</a></span>
+              
+            
+
+            
+            
+              <span class="wide-inline"><span class="pubextrakey">code:</span> <a href="https:&#x2F;&#x2F;github.com&#x2F;blucia0a&#x2F;Recon">Recon</a></span>
+            
+            
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        
+        
+      
+      
+        <div id="osha" class="pub">
+          <div class="pubtitle">
+            <a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;1869459.1869473?cid=81470647599">Composable Specifications for Structured Shared-Memory Communication</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;www.cs.cornell.edu&#x2F;~asampson&#x2F;">Adrian Sampson</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~luisceze&#x2F;">Luis Ceze</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~djg&#x2F;">Dan Grossman</a>
+              
+            
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenueshort">OOPSLA 2010</span>:
+              <span class="pubvenuelong">ACM SIGPLAN Conference on Object-Oriented Programming Systems, Languages, and Applications</span>,
+            
+            October 2010
+          </div>
+          <div class="pubextras">
+            
+              <span class="wide-inline"><span class="pubextrakey">doi:</span><a href="https://doi.org/10.1145&#x2F;1869459.1869473">10.1145&#x2F;1869459.1869473</a></span>
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;1869459.1869473?cid=81470647599">ACM DL Author-Izer</a></span>
+              
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/osha-oopsla2010.pdf">local</a></span>
+              
+            
+
+            
+            
+              <span class="wide-inline"><span class="pubextrakey">code:</span> <a href="https:&#x2F;&#x2F;gitlab.com&#x2F;atlas-lab&#x2F;oshajava">OshaJava</a></span>
+            
+            
+              <span class="wide-inline">
+                <span class="pubextrakey">slides:</span>
+                
+                  <span class="wide-inline"><a href="osha-oopsla2010-slides.key">.key</a></span>
+                
+                  <span class="wide-inline"><a href="osha-oopsla2010-slides.pdf">.pdf</a></span>
+                
+              </span>
+            
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+      
+      
+    
+      
+        
+      
+      
+    
+      
+        
+      
+      
+    
+  
+    <h3>
+      
+        Workshop Papers
+      
+    </h3>
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+        <div id="greco" class="pub">
+          <div class="pubtitle">
+            <a href="https://emptymap.net/cs/downloads/greco-hppc2011.pdf">Greedy Coherence</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="http:&#x2F;&#x2F;www.emilyfortuna.com&#x2F;">Emily Fortuna</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;brandonlucia.com&#x2F;">Brandon Lucia</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;www.cs.cornell.edu&#x2F;~asampson&#x2F;">Adrian Sampson</a>, 
+              
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~luisceze&#x2F;">Luis Ceze</a>
+              
+            
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenueshort">HPPC 2011</span>:
+              <span class="pubvenuelong">Workshop on Hardware Support for Parallel Program Correctness</span> <span class="pubvenuewith">(with MICRO)</span>,
+            
+            December 2011
+          </div>
+          <div class="pubextras">
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/greco-hppc2011.pdf">local</a></span>
+              
+            
+
+            
+            
+            
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        
+        
+      
+      
+        <div id="dreary" class="pub">
+          <div class="pubtitle">
+            <a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;1988915.1988923?cid=81470647599">Data-Race Exceptions Have Benefits Beyond the Memory Model</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~luisceze&#x2F;">Luis Ceze</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~djg&#x2F;">Dan Grossman</a>
+              
+            
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenueshort">MSPC 2011</span>:
+              <span class="pubvenuelong">ACM SIGPLAN Workshop on Memory Systems Performance and Correctness</span> <span class="pubvenuewith">(with PLDI)</span>,
+            
+            June 2011
+          </div>
+          <div class="pubextras">
+            
+              <span class="wide-inline"><span class="pubextrakey">doi:</span><a href="https://doi.org/10.1145&#x2F;1988915.1988923">10.1145&#x2F;1988915.1988923</a></span>
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;dl.acm.org&#x2F;doi&#x2F;10.1145&#x2F;1988915.1988923?cid=81470647599">ACM DL Author-Izer</a></span>
+              
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/dreary-mspc2011.pdf">local</a></span>
+              
+            
+
+            
+            
+            
+              <span class="wide-inline">
+                <span class="pubextrakey">slides:</span>
+                
+                  <span class="wide-inline"><a href="dreary-mspc2011-slides.key">.key</a></span>
+                
+                  <span class="wide-inline"><a href="dreary-mspc2011-slides.pdf">.pdf</a></span>
+                
+              </span>
+            
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        
+      
+      
+    
+      
+        
+      
+      
+    
+      
+        
+      
+      
+    
+  
+    <h3>
+      
+        Technical Reports and Theses
+      
+    </h3>
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+        
+      
+      
+    
+      
+        
+      
+      
+        <div id="dissertation" class="pub">
+          <div class="pubtitle">
+            <a href="https://emptymap.net/cs/downloads/dissertation2014.pdf">Software and Hardware Support for Data-Race Exceptions</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>
+              
+            
+            
+              (advised by
+                <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~djg&#x2F;">Dan Grossman</a>, <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~luisceze&#x2F;">Luis Ceze</a>)
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenuelong">PhD dissertation, University of Washington Computer Science &amp; Engineering</span>,
+            
+            August 2014
+          </div>
+          <div class="pubextras">
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;digital.lib.washington.edu&#x2F;researchworks&#x2F;items&#x2F;9541a4f0-6581-46e0-9db7-0e92627d3241">institution</a></span>
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/dissertation2014.pdf">local</a></span>
+              
+            
+
+            
+            
+            
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        
+      
+      
+        <div id="osha-graphs" class="pub">
+          <div class="pubtitle">
+            <a href="https://emptymap.net/cs/downloads/osha-graphs-tr2009.pdf">Code-Centric Communication Graphs for Shared-Memory Multithreaded Programs</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;www.cis.upenn.edu&#x2F;~devietti&#x2F;">Joseph Devietti</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~luisceze&#x2F;">Luis Ceze</a>, 
+              
+            
+              
+              
+                <a href="https:&#x2F;&#x2F;homes.cs.washington.edu&#x2F;~djg&#x2F;">Dan Grossman</a>
+              
+            
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenuelong">Technical Report UW-CSE-09-05-02, University of Washington</span>,
+            
+            May 2009
+          </div>
+          <div class="pubextras">
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+              
+                <span class="wide-inline"><a href="https:&#x2F;&#x2F;dada.cs.washington.edu&#x2F;research&#x2F;tr&#x2F;2009&#x2F;05&#x2F;UW-CSE-09-05-02.PDF">institution</a></span>
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/osha-graphs-tr2009.pdf">local</a></span>
+              
+            
+
+            
+            
+            
+              
+            
+          </div>
+        </div>
+      
+    
+      
+        
+      
+      
+        <div id="hominy-grits" class="pub">
+          <div class="pubtitle">
+            <a href="https://emptymap.net/cs/downloads/hominy-grits-thesis2008.pdf">Hominy Grits: Specification and Inference of Synchronization Disciplines for Concurrent Programs</a>
+          </div>
+          <div class="pubauthors">
+            
+              
+              
+                <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>
+              
+            
+            
+              (advised by
+                <a href="http:&#x2F;&#x2F;dept.cs.williams.edu&#x2F;~freund&#x2F;">Stephen N. Freund</a>)
+            
+          </div>
+          <div class="pubvenue">
+            
+              <span class="pubvenuelong">Undergraduate thesis, Williams College</span>,
+            
+            May 2008
+          </div>
+          <div class="pubextras">
+            
+            
+              <span class="pubextrakey">text:</span>
+              
+              
+              
+                <span class="wide-inline"><a href="https://emptymap.net/cs/downloads/hominy-grits-thesis2008.pdf">local</a></span>
+              
+            
+
+            
+            
+            
+              
+            
+          </div>
+        </div>
+      
+    
+  
+
+</div>
+
+<div id="fun" class="fullpage textpage publist">
+
+  <h2>
+    Serious Fun
+  </h2>
+
+  <div class="pub">
+    <strong>CSICSOCS</strong> General Chair:
+    <a href="csicsocs/2016/">2016</a>,
+    <a href="csicsocs/2017/">2017</a>
+  </div>
+
+  
+    
+    <div class="pub">
+      <div class="pubtitle">
+        
+          <a href="https:&#x2F;&#x2F;vimeo.com&#x2F;81920893">The Barnyard of Pig Data Research: A View from UW CSA</a>
+        
+      </div>
+      <div class="pubauthors">
+        
+          
+          
+            <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>, 
+          
+        
+          
+          
+            <a href="https:&#x2F;&#x2F;brandonlucia.com&#x2F;">Brandon Lucia</a>, 
+          
+        
+          
+          
+            <s>Tom Bergan</s>, 
+          
+        
+          
+          
+            <a href="https:&#x2F;&#x2F;nelsonje.github.io&#x2F;">Jacob Nelson</a>, 
+          
+        
+          
+          
+            <a href="https:&#x2F;&#x2F;www.cs.cornell.edu&#x2F;~asampson&#x2F;">Adrian Sampson</a>
+          
+        
+      </div>
+      <div class="pubvenue">
+        
+          <span class="pubvenueshort">POCSCI 2013</span>:
+          <span class="pubvenuelong">UW CSE Symposium on Potentially Computer Science</span>,
+        
+        May 2013
+      </div>
+      <div class="pubextras">
+        
+        
+          
+          
+            <span class="wide-inline"><span class="pubextrakey">talk:</span>
+              <a href="https:&#x2F;&#x2F;vimeo.com&#x2F;81920893">video</a></span>
+          
+            <span class="wide-inline"><span class="pubextrakey">text:</span>
+              <a href="https://emptymap.net/cs/downloads/pigdata-pocsci2013.pdf">draft</a></span>
+          
+        
+      </div>
+    </div>
+  
+    
+    <div class="pub">
+      <div class="pubtitle">
+        
+          New World Order? No! Multicore Memory Models for the Masses! 
+        
+      </div>
+      <div class="pubauthors">
+        
+          
+          
+            <a href="&#x2F;cs&#x2F;">Benjamin P. Wood</a>, 
+          
+        
+          
+          
+            <a href="http:&#x2F;&#x2F;www.emilyfortuna.com&#x2F;">Emily Fortuna</a>, 
+          
+        
+          
+          
+            <a href="https:&#x2F;&#x2F;www.cs.cornell.edu&#x2F;~asampson&#x2F;">Adrian Sampson</a>, 
+          
+        
+          
+          
+            <s>Tom Bergan</s>, 
+          
+        
+          
+          
+            <a href="https:&#x2F;&#x2F;brandonlucia.com&#x2F;">Brandon Lucia</a>, 
+          
+        
+          
+          
+            <a href="https:&#x2F;&#x2F;www.cis.upenn.edu&#x2F;~devietti&#x2F;">Joseph Devietti</a>, 
+          
+        
+          
+          
+            <a href="http:&#x2F;&#x2F;homepage.cs.uiowa.edu&#x2F;~bdmyers&#x2F;">Brandon Myers</a>
+          
+        
+      </div>
+      <div class="pubvenue">
+        
+          <span class="pubvenueshort">POCSCI 2011</span>:
+          <span class="pubvenuelong">UW CSE Symposium on Potentially Computer Science</span>,
+        
+        June 2011
+      </div>
+      <div class="pubextras">
+        
+        
+        
+      </div>
+    </div>
+  
+
+</div>
+
+
+
+      
+<a href="https://emptymap.net/images/photos/remmel-pano.jpg">
+  <img class="banner"
+     style="aspect-ratio: 1600 / 352 auto;"
+     src="https://emptymap.net/images/photos/remmel-pano-small-2x.jpg"
+     alt="Whiteboard design"
+     title="Whiteboard design">
+
+</a>
+
+    </main>
+
+    <footer class="toplevel">
+      <div class="tagline">last updated in the Anthropocene Epoch</div>
+      <div class="license"><span class="copyright">&copy;2008&ndash;2025, Benjamin P. Wood,</span>
+<a class="license-ref nowrap" rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a></div>
+    </footer>
+  </body>
+</html>

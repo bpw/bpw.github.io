@@ -1,0 +1,41 @@
+.collaborators dt {
+    margin-top: 0.5em;
+}
+.collaborators div {
+    margin-bottom: 0.25em;
+}
+
+
+.publist h3 {
+    border-bottom: 1px solid #ccc;
+}
+.pub {
+    margin: 1em 0;
+}
+.pubtitle,
+.pubvenueshort {
+    font-weight: bold;
+}
+.pubauthors,
+.pubvenue {
+
+}
+.pubextras {
+    font-size: 0.8em;
+    color: #333;
+    padding: 0.1em;
+    /* background: #f8f8f8; */
+}
+.pubextrakey {
+    font-weight: bold;
+}
+
+@media (prefers-color-scheme: dark) {
+    .publist h3 {
+        border-bottom-color: #444;
+    }
+    .pubextras {
+        color: #ccc;
+    }
+}
+
