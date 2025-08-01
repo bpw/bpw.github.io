@@ -3,7 +3,6 @@
 }
 
 :root {
-    font-size: 16px;
     /* constraint:
        var(--body-inner-min-width)
        == var(--body-outer-min-width - 2 * var(--body-pad))
@@ -16,11 +15,13 @@
     --article-pad: 1rem;
     --nav-accent-thickness: 0.25rem;
     --nav-accent-pad: calc(var(--nav-pad) - var(--nav-accent-thickness));
+    --nav-menu-pad: calc(3rem - var(--nav-accent-thickness));
 }
 
 /* Wide/horizontal */
 @media (640px <= width) {
     :root {
+        font-size: 16px;
         --body-outer-min-width: 640px;
         --body-inner-min-width: calc(var(--body-outer-min-width) - 2 * var(--body-pad));
         --body-inner-max-width: 800px;
@@ -40,11 +41,12 @@
 /* Narrow/vertical */
 @media (width < 640px) {
     :root {
+        font-size: 18px;
         --body-outer-min-width: 320px;
         --body-outer-max-width: 640px;
         --body-inner-min-width: calc(var(--body-outer-min-width) - 2 * var(--body-pad));
         --body-inner-max-width: calc(var(--body-outer-max-width) - 2 * var(--body-pad));
-        --nav-toplevel-font-size: 1.2rem;
+        --nav-toplevel-font-size: 1.1rem;
         --nav-tab-unselected-display: none;
         --colspage-vertical: 1;
         --colspage-smaller-width: 100%;
@@ -96,7 +98,7 @@
         --body-background-color: #000;
         --body-text-color: var(--color-faint-gray);
         --body-link-text-color: var(--color-light-blue);
-        --nav-select-background-color: #202020;
+        --nav-select-background-color: #181818;
         --page-background-color: #282828;
         --page-highlight-background-color: #3c3c3c;
         --page-text-color: var(--color-faint-gray);
@@ -228,10 +230,8 @@ nav.toplevel {
     font-size: var(--nav-toplevel-font-size);
     line-height: 1.25;
 
-    .nav-tab,
     .nav-root,
-    .nav-section,
-    details summary::after {
+    .nav-section {
         display: block;
         padding: var(--nav-pad) var(--page-pad);
         color: var(--body-link-text-color);
@@ -263,18 +263,6 @@ nav.toplevel {
         }
     }
 
-    /*
-    > .nav-root::after,
-    summary .nav-root::after {
-        padding-left: 0.25em;
-        content: "/";
-    }
-    details .menu-item.selected::before {
-        padding-right: 0.25em;
-        content: "⏵";
-    }
-    */
-    
     details {
         background: inherit;
         padding: 0;
@@ -284,20 +272,29 @@ nav.toplevel {
             list-style: none;
             display: flex;
             flex-flow: row nowrap;
-            align-items: start;
+            align-items: center;
             &::after {
+                content: "☰";
+                display: block;
+                padding: 0 var(--page-pad);
                 width: 100%;
                 text-align: right;
                 cursor: pointer;
-                content: "☰";
+                color: var(--body-link-text-color);
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1.4em;
             }
         }
         .menu {
-            padding: 0 2rem;
             width: 100%;
             .menu-item {
+                background: var(--nav-select-background-color);
+                border-left: var(--nav-accent-thickness) solid var(--nav-select-background-color);
+                border-right: var(--nav-accent-thickness) solid var(--nav-select-background-color);
+                padding-left: var(--nav-menu-pad);
+                padding-right: var(--nav-menu-pad);
                 display: block;
-                border-left: var(--nav-accent-thickness) solid var(--body-background-color);
                 margin-bottom: var(--nav-pad);
                 font-weight: bold;
                 &::before {
@@ -306,12 +303,13 @@ nav.toplevel {
                     content: "↦";
                 }
                 &.selected {
+                    border-left-color: var(--body-text-color);
                     color: var(--body-text-color);
-                    background: var(--nav-select-background-color);
                 }
                 &:hover,
                 &:active {
                     background: var(--body-link-text-color);
+                    border-color: var(--body-link-text-color);
                     color: var(--body-background-color);
                 }
             }
