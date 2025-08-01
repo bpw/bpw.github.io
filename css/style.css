@@ -272,7 +272,7 @@ nav.toplevel {
             list-style: none;
             display: flex;
             flex-flow: row nowrap;
-            align-items: center;
+            align-items: baseline;
             &::after {
                 content: "☰";
                 display: block;
@@ -283,7 +283,7 @@ nav.toplevel {
                 color: var(--body-link-text-color);
                 text-decoration: none;
                 font-weight: bold;
-                font-size: 1.4em;
+                font-size: 1.3em;
             }
         }
         .menu {
