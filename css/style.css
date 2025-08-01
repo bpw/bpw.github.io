@@ -231,15 +231,15 @@ nav.toplevel {
     line-height: 1.25;
 
     .nav-root,
-    .nav-section {
+    .nav-section,
+    .menu-toggle {
         display: block;
         padding: var(--nav-pad) var(--page-pad);
         color: var(--body-link-text-color);
         text-decoration: none;
-        font-weight: bold;
     }
-    .nav-root {
-        font-weight: normal;
+    .nav-section {
+        font-weight: bold;
     }
     a.nav-tab {
         &.selected {
@@ -270,20 +270,25 @@ nav.toplevel {
         margin: 0;
         summary {
             list-style: none;
-            display: flex;
+            display: block flex;
             flex-flow: row nowrap;
-            align-items: baseline;
-            &::after {
-                content: "☰";
-                display: block;
-                padding: 0 var(--page-pad);
-                width: 100%;
-                text-align: right;
-                cursor: pointer;
-                color: var(--body-link-text-color);
-                text-decoration: none;
-                font-weight: bold;
-                font-size: 1.3em;
+            a {
+                flex: none;
+            }
+            .menu-toggle {
+                flex: 1 0 auto;
+                display: block flex;
+                flex-flow: row nowrap;
+                justify-content: end;
+                svg {
+                    cursor: pointer;
+                    display: block;
+                    width: 1lh;
+                    height: 1lh;
+                    .icon-foreground {
+                        fill: var(--body-link-text-color);
+                    }
+                }
             }
         }
         .menu {
